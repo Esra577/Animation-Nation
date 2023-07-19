@@ -6561,3 +6561,10 @@ function Shuffle(o) {
   );
   return o;
 }
+// -----------------------------------
+  {
+    artName: 'mono',
+    pageLink: './Art/mono/monoply.html',
+    author: 'esra',
+    githubLink: 'https://github.com/Esra577'
+  }

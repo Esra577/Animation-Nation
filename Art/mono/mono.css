@@ -1,0 +1,40 @@
+.flashing{
+  animation-name: flashing;
+  animation-duration: 2500ms;
+  transition-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+/* could also be written as 
+
+  .flashing{
+  animation: flashing 2500ms linear infinite;
+  }
+  
+*/
+
+@keyframes flashing {
+  0% {background-color: cyan;}
+  15% {background-color: #3366cc;}
+  25% {background-color: yellow;}
+  50% {background-color: white;}
+  75% {background-color: red}
+  100% {background-color: cyan;}
+ }
+
+ .delay1{
+  animation-delay: -2s;
+}
+
+.delay2{
+  animation-delay: -4s;
+}
+
+.delay3{
+  animation-delay: -6s;
+}
+
+.delay4{
+  animation-delay: -8s
+}
